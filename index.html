@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="icon" href="./public/headphones.png">
+	<title>music player</title>
+</head>
+<body>
+	<div class="fullscreen-bg">
+    	<video loop muted autoplay class="fullscreen-bg-video">
+        	<source src="./public/bkg.mp4" type="video/mp4">
+    	</video>
+	</div>
+	<div class="player">
+		<img class="screen" src="./public/cover.jpg">
+		<div class="name">
+			<input type="image" class="smallbtn" src="./public/musical-note.png">
+			<div class="title">Spectre</div>
+			<input type="image" class="smallbtn" src="./public/musical-note.png">
+		</div>
+		<div class="name sec">Alan Walker</div>
+		<input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+		<div class="btn-align">
+			<input type="image" class="smallbtn" src="./public/random.png">
+			<input type="image" class="smallbtn" src="./public/back.png">
+			<input type="image" class="largebtn" src="./public/start.png">
+			<input type="image" class="smallbtn" src="./public/next-1.png">
+			<input type="image" class="smallbtn" src="./public/replay.png">
+		</div>
+	</div>
+</body>
+</html>
