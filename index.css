@@ -84,7 +84,7 @@ body {
 	outline: none;
 }
 
-.slider:hover{
+.slider:hover, .slider:active{
 	transform: scale(1.2,1.25);
 }
 
